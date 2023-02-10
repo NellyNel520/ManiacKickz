@@ -6,9 +6,9 @@ const Sneaker = new Schema(
         name: { type: String, required: true },
         description: { type: String, required: true },
         image: { type: String, required: true },
-        brandName: { type: String, required: true },
+        brandName: { type: Schema.Types.ObjectId, ref: 'Brand' },
         color: { type: String, required: true },
-        price: { type: Number, required: true },
+        price: { type: String, required: true },
         style: { type: String, required: true },
 
     },
