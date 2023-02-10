@@ -1,0 +1,24 @@
+{
+  "name": "maniackickz",
+  "version": "1.0.0",
+  "description": "##### [Portfolio Site](https://www.channelharris.com/) | [Github](https://github.com/NellyNel520) | [LinkedIn](https://www.linkedin.com/in/channelharris/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NellyNel520/ManiacKickz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NellyNel520/ManiacKickz/issues"
+  },
+  "homepage": "https://github.com/NellyNel520/ManiacKickz#readme",
+  "dependencies": {
+    "mongoose": "^6.9.1"
+  }
+}
