@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
-const Sneaker = require('./sneaker')
-const Brand = require('./brand')
+const sneakerSchema = require('./sneaker')
+const brandSchema = require('./brand')
 
-const Sneaker = mongoose.model('Sneaker', Sneaker)
-const Brand = mongoose.model('Brand', Brand)
+const Sneaker = mongoose.model('Sneaker', sneakerSchema)
+const Brand = mongoose.model('Brand', brandSchema)
 
 module.exports = {
     Sneaker,

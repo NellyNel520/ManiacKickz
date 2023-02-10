@@ -1,5 +1,5 @@
-const Sneaker = require('../models/sneaker')
-const Brand = require('../models/brand')
+const { Sneaker, Brand } = require('../models')
+
 
 const createSneaker = async (req, res) => {
     try {

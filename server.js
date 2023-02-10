@@ -10,7 +10,9 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(logger('dev'))
-app.use('/api', routes)
+
+
+app.use('/api', routes) 
 
 app.get('/', (req, res) => {
   res.send('This is root!')

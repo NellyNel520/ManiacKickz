@@ -10,4 +10,4 @@ const Brand = new Schema(
   )
 
 
-module.exports = mongoose.model('Brand', Brand)
+module.exports = Brand
