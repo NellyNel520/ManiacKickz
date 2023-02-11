@@ -3,8 +3,8 @@ const Schema = mongoose.Schema
 
 const Brand = new Schema(
     {
-      brandName: { type: String, required: true },
-      brandLogo: { type: String, required: true }
+      brand: { type: String, required: true },
+      logo: { type: String, required: true }
     },
     { timestamps: true }
   )

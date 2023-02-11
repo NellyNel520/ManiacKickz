@@ -10,7 +10,7 @@ const Sneaker = new Schema(
         releaseDate: { type: Date, required: true },
         price: { type: Number, required: true },
         styleCode: { type: String, required: true },
-        size: [{ type: String, required: true }]
+        sizes: [{ type: String, required: true }]
 
     },
     { timestamps: true },
