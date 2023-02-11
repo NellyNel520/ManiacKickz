@@ -44,10 +44,36 @@ const getAllSneakers = async (req, res) => {
 }
 
 
+const updateSneaker = async (req, res) => {
+    try {
+        const sneaker = await Sneaker.findByIdAndUpdate(req.params.id, req.body, { new: true})
+        res.status(200).json(sneaker)
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
+
+const deleteSneaker = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const deleted = await Sneaker.findByIdAndDelete(id)
+        if (deleted) {
+            return res.status(200).send("Sneaker deleted");
+        }
+        throw new Error("Sneaker not found");
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
+
+
+
 
 module.exports = {
     createSneaker,
     createBrand,
     getAllBrands,
-    getAllSneakers
+    getAllSneakers,
+    updateSneaker,
+    deleteSneaker,
 }
