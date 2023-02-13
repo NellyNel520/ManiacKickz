@@ -1,4 +1,4 @@
-const BrandCar = (props) => {
+const BrandCard = (props) => {
     return (
         <div className="card brand-card" onclick={props.onClick}>
             <div className="img-wrapper">
@@ -10,4 +10,4 @@ const BrandCar = (props) => {
         </div>
     )
 }
-export default BrandCar
+export default BrandCard
