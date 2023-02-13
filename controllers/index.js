@@ -43,6 +43,33 @@ const getAllSneakers = async (req, res) => {
     }
 }
 
+// Get Brand & Sneaker by ID
+const getBrandById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const brand = await Brand.findById(id)
+        if (brand) {
+            return res.status(200).json({ brand });
+        }
+        return res.status(404).send('Brand with the specified ID does not exists');
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
+
+const getSneakerById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const sneaker = await Sneaker.findById(id)
+        if (sneaker) {
+            return res.status(200).json({ sneaker });
+        }
+        return res.status(404).send('Sneaker with the specified ID does not exists');
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
+
 
 const updateSneaker = async (req, res) => {
     try {

@@ -14,7 +14,9 @@ router.get('/brands', controllers.getAllBrands)
 router.post('/sneaker', controllers.createSneaker)
 router.post('/brand', controllers.createBrand)
 
-//Get by Name to search
+//Get brand by id
+
+
 
 //Update sneaker***
 router.put('/updateSneaker/:id', controllers.updateSneaker)
