@@ -1,16 +1,50 @@
 .App {
   text-align: center;
 }
-
-
-header {
-  background-color: #212121;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 3em;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
+/* Nav Bar Section */
+nav{
+  background-color: black;
+  overflow: hidden;
+  padding-left: 1rem;
+}
+nav a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2.5rem 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+nav h1{
+  float: left;
+  font-size: 1.5rem;
+  font-family: 'Great Vibes', cursive;
+  color: rgb(219, 152, 9);
+}
+h2{
+  text-decoration: underline;
+}
+nav a:hover{
+  background-color: rgb(219, 152, 9);
+  color: black;
+}
+nav a.active{
+  background-color: #d89c0f;
+  color: white;
+}
+h1{
+  /* need diff font */
+  font-family: 'Paprika', cursive;
+  text-align: center;
+  padding-top: 15px;
 
-header nav a {
-  margin: 0 1em;
+  font-size: 3rem;
+}
+h1 span{
+  color: black;
 }

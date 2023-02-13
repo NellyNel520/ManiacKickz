@@ -20,6 +20,6 @@ router.post('/brand', controllers.createBrand)
 router.put('/updateSneaker/:id', controllers.updateSneaker)
 
 // delete sneaker***
-router.delete('/sneaker/:id', controllers.deleteSneaker)
+router.delete('/deleteSneaker/:id', controllers.deleteSneaker)
 
 module.exports = router
