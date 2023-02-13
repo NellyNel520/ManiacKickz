@@ -103,4 +103,6 @@ module.exports = {
     getAllSneakers,
     updateSneaker,
     deleteSneaker,
+    getBrandById,
+    getSneakerById
 }
