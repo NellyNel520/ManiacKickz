@@ -10,17 +10,37 @@ import SneakerCard from '../components/SneakerCard'
 const ViewSneakersByBrand = () => {
 
     const [sneakers, setSneakers] = useState([])
-    let { brandID } = useParams()
+    let { brandId } = useParams()
 
     useEffect(() => {
         let isCancelled = false
         const getSneakersByBrand = async () => {
-            const response = await axios.get(`${BASE_URL}`)
+            const response = await axios.get(`${BASE_URL}brands/:id`)
+            if (!isCancelled) {
+                setSneakers(response.data.sneakers)
+            }
         }
-    })
+        getSneakersByBrand()
+        return () => {
+            isCancelled = true
+        }
+    }, [brandId])
 
   return (
-    <div>ViewSneakersByBrand</div>
+    <div>
+        <h2>{brandId.brand}</h2>
+        <div className='container-grid'>
+            {sneakers.map((sneaker) => (
+                <SneakerCard 
+                    key={sneaker.id}
+                    image={sneaker.image}
+                    name={sneaker.name}
+                    price={sneaker.price}
+                    {...sneaker}
+                />
+            ))}
+        </div>
+    </div>
   )
 }
 
