@@ -7,7 +7,7 @@ const Nav = () => {
         <h1>Maniac Kickz</h1>
         <Link to="/about">About Us</Link>
         <Link to="/add-listing">Add Listing</Link>
-        <Link to="/products">Products</Link>
+        <Link to="/sneakers">Products</Link>
         <Link to="/">Home</Link>
       </nav>
     </header>

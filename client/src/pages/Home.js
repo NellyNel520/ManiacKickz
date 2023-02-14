@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { BASE_URL } from '../global'
 import BrandCard from '../components/BrandCard';
@@ -24,11 +25,11 @@ const Home = () => {
         <h2>Shop by Brand</h2>
         <section className='container-grid'>
           {brands.map((brand) => (
-            <BrandCard
-              key={brand.id}
-              brand={brand.brand}
-              image={brand.logo}
-            />
+              <BrandCard
+                key={brand.id}
+                brand={brand.brand}
+                image={brand.logo}
+              />
           ))}
         </section>
       </div>

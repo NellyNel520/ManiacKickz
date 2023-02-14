@@ -4,7 +4,8 @@ const Schema = mongoose.Schema
 const Sneaker = new Schema(
     {
         name: { type: String, required: true },
-        brand: { type: String, required: true },
+        brand: { type: Schema.Types.ObjectId, ref: 'Brand', required: true},
+        brandName: { type: String, required: true },
         image: { type: String, required: true },
         colorWay: { type: String, required: true },
         releaseDate: { type: Date, required: true },

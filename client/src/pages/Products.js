@@ -3,6 +3,7 @@ import SneakerCard from '../components/SneakerCard'
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../global'
+import { Link } from 'react-router-dom'
 
 
 const Products = () => {
@@ -12,7 +13,7 @@ const Products = () => {
     const getAllSneakers = async () => {
       const response = await axios.get(`${BASE_URL}sneakers`)
       setSneakers(response.data.sneakers)
-      console.log(response.data)
+      // console.log(response.data)
     }
     getAllSneakers()
   }, []) 
@@ -23,13 +24,15 @@ const Products = () => {
       <h3>Current Listings</h3>
       <section className='container-grid'>
         {sneakers.map((sneaker) => (
-          <SneakerCard
-            key={sneaker.id}
-            image={sneaker.image}
-            name={sneaker.name}
-            price={sneaker.price}
-            {...sneaker}
-          />
+          <Link to={`/sneakers/${sneaker._id}`} >
+            <SneakerCard
+              key={sneaker.id}
+              {...sneaker}
+              image={sneaker.image}
+              name={sneaker.name}
+              price={sneaker.price}
+            />
+          </Link>
         ))}
       </section>
     </div>
