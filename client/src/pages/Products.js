@@ -21,7 +21,7 @@ const Products = () => {
 
   return (
     <div>
-      <h3>Current Listings</h3>
+      <h1>Current Listings</h1>
       <section className='container-grid'>
         {sneakers.map((sneaker) => (
           <Link to={`/sneakers/${sneaker._id}`} >
