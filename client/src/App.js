@@ -5,6 +5,7 @@ import Products from './pages/Products';
 import Home from './pages/Home';
 import SneakerDetails from './components/SneakerDetails';
 import AddSneakerForm from './components/AddSneakerForm';
+import UpdateSneakerForm from './components/UpdateSneaker';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from './global'
@@ -39,8 +40,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="sneakers" element={ <Products />} />
         <Route path="addSneaker" element={ <AddSneakerForm getAllSneakers={getAllSneakers}/>} />
+        <Route exact path='sneakers/update/:id' element={ <UpdateSneakerForm sneakers={sneakers}/>}/>
         <Route path="sneakers/:id" element={<SneakerDetails />} />
-
       </Routes>
       </main>
       {/* footer add later */}

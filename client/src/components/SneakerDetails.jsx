@@ -1,16 +1,16 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import axios from 'axios';
 import { BASE_URL } from '../global'
 import moment from 'moment';
-import { Link } from 'react-router-dom'
 
 const SneakerDetails = (props) => {
     const [sneaker, setSneaker] = useState('')
 
     let { id } = useParams()
     console.log(id)
+
 
     useEffect(() => {
         const getSneakerById = async () => {
@@ -37,6 +37,8 @@ const SneakerDetails = (props) => {
             <div className='wrapper2'>
                     <div><h3>Name</h3></div>
                     <div><h3>{sneaker.name}</h3></div>
+                    <div><h3>Brand</h3></div>
+                    <div><h3>{sneaker.brandName}</h3></div>
                     <div><h3>Colorway</h3></div>
                     <div><h3>{sneaker.colorWay}</h3></div>
                     <div><h3>Release Date</h3></div>
@@ -48,6 +50,10 @@ const SneakerDetails = (props) => {
             </div>
         </div>
         <div>
+        <Link to={`/sneakers/update/${sneaker._id}`}>
+            <button>update</button>
+        </Link>
+
         <Link to={'/sneakers'}>
             <button>Back</button>
         </Link>
