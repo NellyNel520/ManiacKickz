@@ -25,11 +25,13 @@ const Home = () => {
         <h2>Shop by Brand</h2>
         <section className='container-grid'>
           {brands.map((brand) => (
+            <Link to={} >
               <BrandCard
                 key={brand.id}
                 brand={brand.brand}
                 image={brand.logo}
               />
+            </Link>
           ))}
         </section>
       </div>
