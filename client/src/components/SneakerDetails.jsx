@@ -57,6 +57,12 @@ const SneakerDetails = (props) => {
         <Link to={'/sneakers'}>
             <button>Back</button>
         </Link>
+
+        <Link to={`/deleteSneaker/${sneaker._id}`}>
+            <button>Delete</button>
+        </Link>
+
+
         </div>
     </div>
   ) : null
