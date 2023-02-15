@@ -48,3 +48,31 @@ h1{
 h1 span{
   color: black;
 }
+
+
+/* Sneaker Details */
+.sneakerInfo-wrapper{
+  border: 1px solid ;
+  padding: 20px;
+  width: 35rem;
+  justify-content: center;
+  margin: 0 25rem 0 25rem;
+}
+.wrapper2{
+  display: grid;
+  grid-template-columns: 10rem 25rem; 
+}
+
+/* .columns div{
+  float: left;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 40%;
+}
+.column-title{
+  color: gray;
+  word-wrap: normal;
+}
+.column-value{
+  font-size: 15px;
+} */
