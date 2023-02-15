@@ -4,11 +4,11 @@ import Nav from './components/Nav';
 import Products from './pages/Products';
 import Home from './pages/Home';
 import SneakerDetails from './components/SneakerDetails';
+import AddSneakerForm from './components/AddSneakerForm';
+
 // import Footer from './components/Footer';
 
 function App() {
-
-  
 
   return (
     <div className="App">
@@ -17,7 +17,9 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="sneakers" element={ <Products />} />
+        <Route path="addSneaker" element={ <AddSneakerForm />} />
         <Route path="sneakers/:id" element={<SneakerDetails />} />
+
       </Routes>
       </main>
       {/* footer add later */}
