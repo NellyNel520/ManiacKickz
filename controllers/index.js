@@ -2,11 +2,14 @@ const { Sneaker, Brand } = require('../models');
 
 const createSneaker = async (req, res) => {
 	try {
+		console.log(req.body)
 		const sneaker = await new Sneaker(req.body);
 		await sneaker.save();
-		const brand = await Brand.findById(req.body.brand)
-		brand.sneakers.push(sneaker._id);
-		await brand.save();
+		if (req.body.brand) {
+			const brand = await Brand.findById(req.body.brand)
+			brand.sneakers.push(sneaker._id);
+			await brand.save();
+		}
 
 		return res.status(201).json({
 			sneaker,

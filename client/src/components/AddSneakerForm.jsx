@@ -2,13 +2,23 @@ import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
 import { BASE_URL } from '../global'
+import { useNavigate } from "react-router-dom"
+
 
 const AddSneakerForm = (props) => {
     const initialState = {
-        issueType: '',
-        subject: '',
-        message: ''
+        name: '',
+        brandName: '',
+        image: '',
+        colorWay: '',
+        releaseDate: '',
+        price: '',
+        styleCode: '',
+        sizes: ''
     }
+
+    let navigate = useNavigate()
+
     const [formState, setFormState] = useState(initialState)
 
     const handleChange = (event) => {
@@ -19,7 +29,8 @@ const AddSneakerForm = (props) => {
 		event.preventDefault()
 		await axios.post(`${BASE_URL}sneaker`, formState)
 		setFormState(initialState)
-    props.getAllSneakers()
+    navigate('/sneakers')
+    // props.getAllSneakers()
 	}
     
 
@@ -62,7 +73,7 @@ const AddSneakerForm = (props) => {
         />
         <label htmlFor="price">Price: $</label>
         <input 
-        type="text" 
+        type="number" 
         id="price" 
         onChange={handleChange}
         value={formState.price}
