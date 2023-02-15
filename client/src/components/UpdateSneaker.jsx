@@ -23,7 +23,11 @@ const UpdateSneakerForm = (props) => {
 		event.preventDefault()
 		let newSneaker = {
 			name: formState.name,
-			brandName: formState.brandName
+			brandName: formState.brandName,
+			colorWay: formState.colorWay,
+			releaseDate: formState.releaseDate,
+			styleCode: formState.styleCode,
+			price: formState.price
 		}
 		await axios.put(`${BASE_URL}updateSneaker/${formState._id}`, newSneaker)
 		setFormState({})
