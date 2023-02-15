@@ -19,7 +19,7 @@ const AddSneakerForm = (props) => {
 		event.preventDefault()
 		await axios.post(`${BASE_URL}sneaker`, formState)
 		setFormState(initialState)
-		props.createSneaker()
+    props.getAllSneakers()
 	}
     
 
