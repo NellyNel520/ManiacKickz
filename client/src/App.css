@@ -21,11 +21,12 @@ nav a{
   padding: 2.5rem 16px;
   text-decoration: none;
   font-size: 1.1rem;
+  margin-top: 40px;
 }
-nav h1{
+nav img{
   float: left;
   font-size: 1.5rem;
-  font-family: 'Great Vibes', cursive;
+  width: 9rem;
   color: rgb(219, 152, 9);
 }
 h2{
@@ -115,12 +116,33 @@ h1 span{
   margin: 0 10%;
   padding-bottom: 5%;
 }
+.container-ft{
+  margin: 4rem 5.3rem ;
+}
+
+.content-container{
+  border: 3px solid  grey;
+  margin: 3rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.imgCont-container{
+  width: 30%;
+  height: 6rem;
+  border: 2px solid;
+}
+.container-cont{
+  width: 30%;
+  height: 6rem;
+  border: 3px solid;
+}
 /* Home Page */
 
 /* Footer */
 footer{
   border-top:3px solid black;
-  padding: 30px 0 40px 0;
+  padding: 30px 0 40px 0;    
   height: auto;
 }
 

@@ -9,9 +9,10 @@ const SneakersByBrand = ({sneakers}) => {
   const brandSneakers = sneakers.filter((sneaker) => {
     return sneaker.brand === id
   })
+  // console.log(sneakers[0])
   return (
     <div>
-      <div>Brand Name</div>
+      <h1>Brand Name</h1>
       <div className='container-grid'>
       {brandSneakers.map((sneaker) => (
           <Link to={`/sneakers/${sneaker._id}`} >

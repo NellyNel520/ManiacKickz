@@ -21,9 +21,43 @@ const Home = () => {
 
   return (
     <div>
+      <header>
+        <video>
+          <source src=''
+        </video>
+      </header>
+      <div className='content-container'>
+        <div className='imgCont-container'>
+          <img src='sds' />
+        </div>
+        <div className='container-cont'>
+          <p>vhvubvhjbknkjn</p>
+        </div>
+      </div>
+      <div className='container-ft'>
+        <div className='container-grid'>
+          <div className='card'>
+            <img src='' />
+            <h4>product name</h4>
+            <h5>$300</h5>
+          </div>
+          <div className='card'>
+            <img src='' />
+            <h4>product name</h4>
+            <h5>$300</h5>
+          </div>
+          <div className='card'>
+            <img src='' />
+            <h4>product name</h4>
+            <h5>$300</h5>
+          </div>
+        </div>
+      </div>
+
+
       <div className='container-shopBrand'>
-        <h2>Featured Brands</h2>
-        
+        <h1>Featured Brands</h1>
+        {/* <p>we have something for eveyone</p> */}
         <section className='container-grid'>
           {brands.map((brand) => (
             <Link to={`brand/${brand._id}`} >

@@ -4,7 +4,8 @@ const Nav = () => {
   return (
     <header>
       <nav>
-        <h1>Maniac Kickz</h1>
+        {/* <h1>Maniac Kickz</h1> */}
+        <img alt="logo" src="https://i.postimg.cc/QdtYRT6b/Your-paragraph-text-1.png" />
         <Link to="/about">About Us</Link>
         <Link to="/addSneaker">Add Listing</Link>
         <Link to="/sneakers">Products</Link>
