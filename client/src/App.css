@@ -6,15 +6,7 @@ body{
   padding: 0;
   background-color: black;
 }
-/* Image Header */
-header{
-}
-video{
-  width: 100%;
-  height: 75%;
-  object-fit: contain;
-}
-/* Image Header */
+
 
 
 /* Nav Bar Section */
@@ -29,7 +21,7 @@ nav a{
   text-align: center;
   padding: 2.5rem 16px;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-top: 40px;
 }
 nav img{
@@ -37,6 +29,7 @@ nav img{
   font-size: 1.5rem;
   width: 9rem;
   color: rgb(219, 152, 9);
+  margin: 1rem 2rem 0 0;
 }
 h2{
   text-decoration: underline;
@@ -120,8 +113,25 @@ h1 span{
 /* Card Styling (brand and sneaker) */
 
 /* Home Page */
+/* Image Header */
+header{
+}
+video{
+  width: 100%;
+  height: 75%;
+  object-fit: contain;
+}
+/* Image Header */ 
 .home{
   color: #f2f2f2;
+}
+.headline{
+  font-family: 'Gravitas One', cursive;
+  font-size: 6rem;
+}
+h1{
+  font-family: 'Gravitas One', cursive;
+  font-size: 3.5rem;
 }
 .container-shopBrand{
   width: 80%;
@@ -141,14 +151,29 @@ h1 span{
   color: white;
 }
 .imgCont-container{
-  width: 30%;
-  height: 6rem;
+  width: 40%;
+  height: 25rem;
   border: 2px solid;
 }
 .container-cont{
-  width: 30%;
-  height: 6rem;
+  width: 40%;
+  height: 25rem;
   border: 3px solid;
+}
+
+.homeImage-cont{
+  max-width: 300px;
+  max-height: 320px;
+  border-radius: 4px;
+  background-color: rgba(147, 145, 140, 0.4);
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #f2f2f2;
+  transition: all 0.2s ease-in-out;
+}
+.homeImage-cont img{
+  width: 100%;
+  height: 16rem;
 }
 /* Home Page */
 

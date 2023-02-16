@@ -35,19 +35,28 @@ const Home = () => {
           <p>vhvubvhjbknkjn</p>
         </div>
       </div>
+      <h1 className='headline'>What's Your Style?</h1>
+      <div className='content-container'>
+        <div className='imgCont-container'>
+        <p>vhvubvhjbknkjn</p>
+        </div>
+        <div className='container-cont'>
+        <img src='sds' />
+        </div>
+      </div>
       <div className='container-ft'>
         <div className='container-grid'>
-          <div className='card'>
+          <div className='homeImage-cont'>
             <img src='' />
             <h4>product name</h4>
             <h5>$300</h5>
           </div>
-          <div className='card'>
+          <div className='homeImage-cont'>
             <img src='' />
             <h4>product name</h4>
             <h5>$300</h5>
           </div>
-          <div className='card'>
+          <div className='homeImage-cont'>
             <img src='' />
             <h4>product name</h4>
             <h5>$300</h5>
