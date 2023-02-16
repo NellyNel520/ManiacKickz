@@ -1,3 +1,9 @@
+
+/* Color Variables */
+:root {
+  --orange:  rgb(219, 152, 9)
+}
+
 .App {
   text-align: center;
 }
@@ -14,6 +20,7 @@ nav{
   background-color: black;
   overflow: hidden;
   padding-left: 1rem;
+  border-bottom: 2px solid rgba(233, 204, 44, 0.3);
 }
 nav a{
   float: right;
@@ -113,7 +120,7 @@ h1 span{
 /* Card Styling (brand and sneaker) */
 
 /* Home Page */
-/* Image Header */
+
 header{
 }
 video{
@@ -121,13 +128,15 @@ video{
   height: 75%;
   object-fit: contain;
 }
-/* Image Header */ 
+
+
 .home{
   color: #f2f2f2;
 }
 .headline{
   font-family: 'Gravitas One', cursive;
   font-size: 6rem;
+  margin: 0 0 10rem 0;
 }
 h1{
   font-family: 'Gravitas One', cursive;
@@ -139,33 +148,45 @@ h1{
   padding-bottom: 5%;
 }
 .container-ft{
-  margin: 4rem 5.3rem ;
+  margin:  ;
 }
 
 .content-container{
   border: 3px solid  grey;
-  margin: 3rem;
-  padding: 3rem;
+  margin: 5rem 3rem 10rem 3rem;
+  padding: 3rem 3rem 6rem 3rem;
   display: flex;
   justify-content: space-between;
   color: white;
 }
 .imgCont-container{
   width: 40%;
-  height: 25rem;
-  border: 2px solid;
+  height: 24.5rem;
+  /* border: 3px solid; */
+  box-shadow: 0 0 10px 6px var(--orange);
+}
+.home-img1{
+  width: 100%;
+  height: 100%;
+
+}
+.home-img2{
+  width: 100%;
+  height: 100%;
+
 }
 .container-cont{
   width: 40%;
   height: 25rem;
-  border: 3px solid;
+  /* border: 3px solid; */
+  box-shadow: 0 0 10px 6px var(--orange);
 }
 
 .homeImage-cont{
   max-width: 300px;
-  max-height: 320px;
+  max-height: 400px;
   border-radius: 4px;
-  background-color: rgba(147, 145, 140, 0.4);
+  /* background-color: rgba(237, 232, 218, 0.6); */
   cursor: pointer;
   transition: all 0.2s;
   color: #f2f2f2;

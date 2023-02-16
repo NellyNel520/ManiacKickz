@@ -29,37 +29,41 @@ const Home = () => {
      
       <div className='content-container'>
         <div className='imgCont-container'>
-          <img src='sds' />
+          <img className="home-img2" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdASRgy_aawwcOedTd8HsmRHPIBsYiaMIsUg&usqp=CAU' alt='sneaker' />
         </div>
         <div className='container-cont'>
-          <p>vhvubvhjbknkjn</p>
+          <p>vhvubvhjbknkjn bb</p>
         </div>
       </div>
+
       <h1 className='headline'>What's Your Style?</h1>
+
       <div className='content-container'>
         <div className='imgCont-container'>
-        <p>vhvubvhjbknkjn</p>
+        <p>vhvubvhcccjbknkjn</p>
         </div>
         <div className='container-cont'>
-        <img src='sds' />
+        <img className="home-img1" alt="sneaker" src='https://images.unsplash.com/photo-1633464130613-0a9154299ac2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8am9yZGFuc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60' />
         </div>
+        
       </div>
       <div className='container-ft'>
         <div className='container-grid'>
           <div className='homeImage-cont'>
-            <img src='' />
-            <h4>product name</h4>
-            <h5>$300</h5>
+            <img src='https://images.unsplash.com/photo-1515555230216-82228b88ea98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MjU1ODMzN3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60' alt='sneaker' />
+           
           </div>
           <div className='homeImage-cont'>
-            <img src='' />
-            <h4>product name</h4>
-            <h5>$300</h5>
+            <img src='https://images.unsplash.com/photo-1595460039423-2ab1dc7b3e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGpvcmRhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60' alt='sneaker' />
+           
           </div>
           <div className='homeImage-cont'>
-            <img src='' />
-            <h4>product name</h4>
-            <h5>$300</h5>
+            <img src='https://images.unsplash.com/photo-1640251809451-e9f669695f09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGpvcmRhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60' alt='sneaker' />
+            
+          </div>
+
+          <div className='homeImage-cont'>
+            <img src='https://images.unsplash.com/photo-1675625500524-432cad136b10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQwfHxqb3JkYW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60' alt='sneaker' />
           </div>
         </div>
       </div>
