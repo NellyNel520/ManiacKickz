@@ -12,6 +12,7 @@ const SneakersByBrand = ({sneakers}) => {
   return (
     <div>
       <div>Brand Name</div>
+      <div className='container-grid'>
       {brandSneakers.map((sneaker) => (
           <Link to={`/sneakers/${sneaker._id}`} >
             <SneakerCard
@@ -23,6 +24,7 @@ const SneakersByBrand = ({sneakers}) => {
             />
           </Link>
         ))}
+        </div>
     </div>
   )
 }

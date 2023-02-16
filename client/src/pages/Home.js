@@ -22,7 +22,8 @@ const Home = () => {
   return (
     <div>
       <div className='container-shopBrand'>
-        <h2>Shop by Brand</h2>
+        <h2>Featured Brands</h2>
+        
         <section className='container-grid'>
           {brands.map((brand) => (
             <Link to={`brand/${brand._id}`} >

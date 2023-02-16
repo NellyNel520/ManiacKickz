@@ -3,6 +3,7 @@
 const SneakerCard = (props) => {
 
 	return (
+		<div className="container-grid">
 		<div className="card sneaker-card" key={props.key} onClick={props.onClick}>
 			<div className="img-wrapper">
 				<img alt="sneaker img" src={props.image} />
@@ -12,6 +13,7 @@ const SneakerCard = (props) => {
 				{/* <h5>${props.price}</h5> */}
 			</div>
 			
+		</div>
 		</div>
 	);
 };
