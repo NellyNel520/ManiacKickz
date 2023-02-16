@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
 	return (
-		<div>
+		<div className='box'>
 			<footer>
 				<div class="footer-container">
 					<div class="column1">
@@ -33,25 +33,22 @@ const Footer = () => {
 					</div>
 
           <div class="column3">
-						<h3>Follow us</h3>
+						<h3>Lets Connect !</h3>
 						<p><a href=""><i class="fab fa-facebook fa-2x"></i></a></p>
-						<p><a href="#"><i class="fab fa-twitter fa-xl"></i></a></p>
-						<p><a href="#"><i class="fab fa-google-plus-g fa-xl"></i></a></p>
-						<p><a href="#"><i class="fab fa-instagram fa-xl"></i></a></p>
-            <p><a href="#"><i class="fab fa-pinterest fa-xl"></i></a></p>
+						<p><a href="#"><i class="fab fa-twitter fa-2x"></i></a></p>
+						<p><a href="#"><i class="fab fa-google-plus-g fa-2x"></i></a></p>
+						<p><a href="#"><i class="fab fa-instagram fa-2x"></i></a></p>
+            <p><a href="#"><i class="fab fa-pinterest fa-2x"></i></a></p>
 				  </div>
 				</div>
-
-				<div class="footer-bottom">
-					<div class="container">
-						<div class="row">
 							<div class="copyright">
-								<p>&copy; Maniac Kickz (Developer: Channel Harris)</p>
-								<a href="https://www.channelharris.com/"> Portfolio Site</a>
-							</div>
+									<p>&copy; Maniac Kickz (Developer: Channel Harris)</p>
+									<div className='ft-links'>
+										<p><a href='https://www.linkedin.com/in/channelharris/'><i class="fa-brands fa-linkedin fa-xl"></i></a></p>
+										<p><a href="https://www.channelharris.com/"> Portfolio</a></p>
+										<p><a href='https://github.com/NellyNel520'><i class="fa-brands fa-github fa-xl"></i></a></p>
+								</div>
 						</div>
-					</div>
-				</div>
 			</footer>
 		</div>
 	)
