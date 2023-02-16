@@ -4,8 +4,13 @@
 body{
   margin: 0;
   padding: 0;
-  /* background-color: black; */
+  background-color: black;
 }
+/* Image Header */
+header img{
+  width: 45%;
+}
+/* Image Header */
 
 
 /* Nav Bar Section */
@@ -175,3 +180,8 @@ footer{
   padding-bottom: 17px;
 }
 /* Footer */
+
+#video{
+  width: 100%;
+  height: ;
+}

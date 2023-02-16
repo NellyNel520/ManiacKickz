@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { BASE_URL } from '../global'
 import BrandCard from '../components/BrandCard';
+import Logo from '../assets/logo.mp4'
 
 
 const Home = () => {
@@ -21,11 +22,13 @@ const Home = () => {
 
   return (
     <div>
-      <header>
-        <video>
-          <source src=''
-        </video>
-      </header>
+    <header>
+      <img alt="logo" src='https://i.postimg.cc/QdtYRT6b/Your-paragraph-text-1.png' />
+      {/* <video autoplay loop id='video'>
+        <source src={Logo} type='video/mp4' />
+      </video> */}
+    </header>
+     
       <div className='content-container'>
         <div className='imgCont-container'>
           <img src='sds' />
