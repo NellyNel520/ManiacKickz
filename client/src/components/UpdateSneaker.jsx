@@ -19,7 +19,7 @@ const UpdateSneakerForm = (props) => {
 		setFormState({ ...formState, [event.target.id]: event.target.value })
 	}
 
-	const handleSubmit = async (event) => {
+	const handleSubmit = async (event) =>  {
 		event.preventDefault()
 		let newSneaker = {
 			name: formState.name,
@@ -36,7 +36,7 @@ const UpdateSneakerForm = (props) => {
 	}
 	useEffect(() => {
 		findSneaker()
-	}, [])
+	}, []) 
 
 	return (
 		<form onSubmit={handleSubmit}>

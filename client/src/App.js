@@ -9,6 +9,7 @@ import UpdateSneakerForm from './components/UpdateSneaker';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from './global'
+import SneakersByBrand from './components/SneakersByBrand';
 
 // import Footer from './components/Footer';
 
@@ -42,6 +43,8 @@ function App() {
         <Route path="addSneaker" element={ <AddSneakerForm getAllSneakers={getAllSneakers}/>} />
         <Route exact path='sneakers/update/:id' element={ <UpdateSneakerForm sneakers={sneakers}/>}/>
         <Route path="sneakers/:id" element={<SneakerDetails />} />
+        <Route path="brand/:id" element={<SneakersByBrand sneakers={sneakers}/>} />
+        
       </Routes>
       </main>
       {/* footer add later */}

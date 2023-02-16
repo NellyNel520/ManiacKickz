@@ -25,7 +25,7 @@ const Home = () => {
         <h2>Shop by Brand</h2>
         <section className='container-grid'>
           {brands.map((brand) => (
-            <Link to={} >
+            <Link to={`brand/${brand._id}`} >
               <BrandCard
                 key={brand.id}
                 brand={brand.brand}
