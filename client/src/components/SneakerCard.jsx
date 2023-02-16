@@ -9,7 +9,7 @@ const SneakerCard = (props) => {
 			</div>
 			<div className="info-wrapper flex-col">
 				<h4>{props.name}</h4>
-				<h5>${props.price}</h5>
+				{/* <h5>${props.price}</h5> */}
 			</div>
 			
 		</div>

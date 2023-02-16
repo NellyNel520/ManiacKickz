@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className='container'>
+      <div className='container-shopBrand'>
         <h2>Shop by Brand</h2>
         <section className='container-grid'>
           {brands.map((brand) => (
