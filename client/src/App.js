@@ -1,6 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Products from './pages/Products';
 import Home from './pages/Home';
 import SneakerDetails from './components/SneakerDetails';
@@ -47,7 +48,7 @@ function App() {
         
       </Routes>
       </main>
-      {/* footer add later */}
+        <Footer />
     </div>
   );
 }
