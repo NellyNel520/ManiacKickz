@@ -32,17 +32,17 @@ const Home = () => {
           <img className="home-img2" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdASRgy_aawwcOedTd8HsmRHPIBsYiaMIsUg&usqp=CAU' alt='sneaker' />
         </div>
         <div className='container-cont'>
-          <p>vhvubvhjbknkjn bb</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
         </div>
       </div>
 
       <h1 className='headline'>What's Your Style?</h1>
 
       <div className='content-container'>
-        <div className='imgCont-container'>
-        <p>vhvubvhcccjbknkjn</p>
-        </div>
         <div className='container-cont'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
+        </div>
+        <div className='imgCont-container'>
         <img className="home-img1" alt="sneaker" src='https://images.unsplash.com/photo-1633464130613-0a9154299ac2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8am9yZGFuc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60' />
         </div>
         

@@ -8,13 +8,9 @@ const Footer = () => {
 					<div class="column1">
 						<img
 							class="logo-footer"
-							src="assets/img/logo.png"
+							src="https://i.postimg.cc/tCxsxTDD/Maniac-Kicks-logo-1.png"
 							alt="logo-footer"
 						/>
-						<p>
-							We are a young company always looking for new and creative ideas
-							to help you with our products in your everyday work.
-						</p>
 					</div>
 
 
