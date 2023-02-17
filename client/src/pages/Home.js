@@ -43,6 +43,7 @@ const Home = () => {
       <div className='content-container'>
         <div className='container-cont'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
+        <button>see More</button>
         </div>
         <div className='imgCont-container'>
         <img className="home-img1" alt="sneaker" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQ8K9EK-dvPrZj17d5cHiv6v6UFUou3eaQw&usqp=CAU' />
