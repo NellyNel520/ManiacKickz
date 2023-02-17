@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../global'
 import { Link } from 'react-router-dom'
+import '../styles/Products.css'
 
 
 const Products = () => {
@@ -21,7 +22,11 @@ const Products = () => {
 
   return (
     <div>
-      <h1>Current Listings</h1>
+    <div className='wrapper'>
+      <div className='top'> kickz</div>
+      <div className='bottom' aria-hidden="true"> Kickz</div>
+    </div>
+      {/* <h1>Current Listings</h1> */}
       <section className='container-grid'>
         {sneakers.map((sneaker) => (
           <Link to={`/sneakers/${sneaker._id}`} >
