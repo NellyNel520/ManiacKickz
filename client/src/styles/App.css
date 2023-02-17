@@ -190,7 +190,7 @@ h1{
 }
 .imgCont-container{
   width: 40%;
-  height: 24.5rem;
+  height: 35rem;
   /* border: 3px solid; */
   box-shadow: 0 0 10px 8px var(--orange);
 }
@@ -206,7 +206,7 @@ h1{
 }
 .container-cont{
   width: 40%;
-  height: auto;
+  height: 35rem;
   padding-bottom: 40px;
   /* border: 3px solid; */
   box-shadow: 0 0 10px 8px var(--orange);
