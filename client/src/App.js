@@ -11,6 +11,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BASE_URL } from './global'
 import SneakersByBrand from './components/SneakersByBrand';
+import About from './pages/About';
 
 // import Footer from './components/Footer';
 
@@ -41,6 +42,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="sneakers" element={ <Products />} />
+        <Route path="about" element={ <About />} />
         <Route path="addSneaker" element={ <AddSneakerForm getAllSneakers={getAllSneakers}/>} />
         <Route exact path='sneakers/update/:id' element={ <UpdateSneakerForm sneakers={sneakers}/>}/>
         <Route path="sneakers/:id" element={<SneakerDetails />} />

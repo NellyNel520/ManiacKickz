@@ -1,0 +1,35 @@
+.container{
+  height: auto;
+  display: grid;
+  margin-bottom: 3rem;
+}
+h2{
+  float: left;
+  font-family: 'Gravitas One', cursive;
+  font-size: 4rem;
+}
+.main{
+  height: auto;
+  margin-bottom: 6rem;
+}
+p{
+  color: white;
+}
+.about-container{
+  /* border: 5px solid gold; */
+  justify-content: center;
+  /* position: fixed; */
+  width: 60%;
+  /* height: auto; */
+  margin: 9rem 16rem;
+  padding: 2rem;
+}
+p{
+  font-family: 'Scope One', serif;
+  font-size: 20px;
+  
+}
+video{
+  width: 50%;
+  margin-top: -6rem;
+}
