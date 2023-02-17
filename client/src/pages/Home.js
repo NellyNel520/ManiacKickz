@@ -30,7 +30,7 @@ const Home = () => {
      
       <div className='content-container'>
         <div className='imgCont-container'>
-          <img className="home-img2" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdASRgy_aawwcOedTd8HsmRHPIBsYiaMIsUg&usqp=CAU' alt='sneaker' />
+          <img className="home-img2" src='https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2020/09/05/0151ef7e-edb5-11ea-8288-5c49f42eee5c_image_hires_193040.jpg?itok=ydapHfnB&v=1599344561' alt='sneaker' />
         </div>
         <div className='container-cont'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
@@ -44,7 +44,7 @@ const Home = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
         </div>
         <div className='imgCont-container'>
-        <img className="home-img1" alt="sneaker" src='https://images.unsplash.com/photo-1633464130613-0a9154299ac2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8am9yZGFuc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60' />
+        <img className="home-img1" alt="sneaker" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZQ8K9EK-dvPrZj17d5cHiv6v6UFUou3eaQw&usqp=CAU' />
         </div>
         
       </div>
