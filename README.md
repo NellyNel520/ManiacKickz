@@ -7,7 +7,9 @@
 ***
 
 #### ***Description***
-###### Full Stack E-Commerce application for sneaker consignment. The site will include a landing/home page, product page, an add listing page where the user can use a form to list there own shoes for sale, and an about page. The user will have the ability to search / filter through the current product listings and the ability to remove listings that they have added. 
+### Full Stack E-Commerce application for sneaker consignment. Maniac Kicks site will include the basic structure of a typical e-comm store, consisting of multiple pages such as the Home, products, and about us page. As well as two additional forms that will allow the user to add new products as well as edit exsiting listings. The user can also filter through the avaliable products by brands. 
+
+The site will include a landing/home page, product page, an add listing page where the user can use a form to list there own shoes for sale, and an about page. The user will have the ability to search / filter through the current product listings and the ability to remove listings that they have added. 
 
 ***
 
@@ -24,14 +26,14 @@
 
 ***
 
-#### ***Getting Started***
-TBD****
-
+#### ***Additional Info***
 A Trello board was used to keep track of development progress and can be viewed [here](https://trello.com/b/W8Al6ab7/maniac-kicks).
 
-The project itself was deployed and can be viewed [here]().
+The project itself was deployed and can be viewed [here](). TBD
 
 ***
+
+
 ### ***Screenshots of Final Project***
 ##### Image Header 1
 ![Image](https://i.postimg.cc/bNFWxKV5/memoji-laptop.png)
@@ -40,11 +42,13 @@ The project itself was deployed and can be viewed [here]().
 ![Image](https://i.postimg.cc/4dLQCTck/memoji2.png)
 
 *** 
-### ***Task List***
+### ***Future Updates***
 - [] Add an add to cart functionality 
-- [] Cart Component
-- [x] Completed Update
-- [x] ~~strikethrough~~ Items Also
+- [] Search bar to allow user to search by brand and/or shoe name
+- [] Checkout Functionality
+- [] user authentication & admin access (only admin can perform edits)
+- [] Sign in functionality 
+- [] able to save favorite items when you sign up as a user
 
 
 ***
