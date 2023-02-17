@@ -31,6 +31,7 @@ const UpdateSneakerForm = (props) => {
 		}
 		await axios.put(`${BASE_URL}updateSneaker/${formState._id}`, newSneaker)
 		setFormState({})
+		window.alert('Success! Listing has been updated!')
 		navigate('/sneakers')
 		// props.getAllSneakers()
 	}

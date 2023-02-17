@@ -30,6 +30,7 @@ const AddSneakerForm = (props) => {
 		event.preventDefault()
 		await axios.post(`${BASE_URL}sneaker`, formState)
 		setFormState(initialState)
+    window.alert('Success! Listing has been created !')
     navigate('/sneakers')
     // props.getAllSneakers()
 	}
@@ -103,7 +104,7 @@ const AddSneakerForm = (props) => {
 
 
       </form>
-          <button type='submit'>Submit</button>
+          <button onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   )

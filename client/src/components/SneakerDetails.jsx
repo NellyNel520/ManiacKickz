@@ -28,7 +28,7 @@ const SneakerDetails = (props) => {
 	const deleteSneaker = async () => {
 		const response = await axios.delete(`${BASE_URL}deleteSneaker/${id}`)
 		console.log(response)
-        window.alert('Success!')
+        window.alert('Success! Sneaker was deleted')
 		navigate('/sneakers')
 	}
 
