@@ -11,6 +11,10 @@
   margin: 0 380px 3rem 380px;
 
 }
+.container-update{
+  width: 60%;
+  margin: 15px 300px;
+}
 
 form {
   box-sizing: border-box;

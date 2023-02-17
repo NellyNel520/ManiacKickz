@@ -39,6 +39,12 @@ const UpdateSneakerForm = (props) => {
 	}, []) 
 
 	return (
+	<div>
+		<div className='wrapper'>
+        <div className='top'> Edit Listing </div>
+        <div className='bottom' aria-hidden="true">  Edit Listing</div>
+    </div>
+		<div className='container-update'>
 		<form onSubmit={handleSubmit}>
 			<label htmlFor="name">Name:</label>
 			<input
@@ -98,8 +104,11 @@ const UpdateSneakerForm = (props) => {
 				value={formState.sizes}
 			/>
 
-			<button type="submit">Submit</button>
+			
 		</form>
+		<button type="submit">Submit</button>
+	</div>
+</div>
 	)
 }
 
