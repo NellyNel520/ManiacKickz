@@ -23,7 +23,6 @@ The site will include a landing/home page, product page, an add listing page whe
 * Mongo DB
 * Heroku
 * DrawIO [for Entity Relationship Diagram & Component Hierarchy Diagram]
-
 ***
 
 #### ***Additional Info***
@@ -39,7 +38,7 @@ The project itself was deployed and can be viewed [here](). TBD
 ![Image](https://i.postimg.cc/bNFWxKV5/memoji-laptop.png)
 
 ##### Image Header 2
-![Image](https://i.postimg.cc/4dLQCTck/memoji2.png)
+![Image](https://i.postimg.cc/gjVFXPgG/Screenshot-2023-02-17-at-12-05-00-PM.png)
 
 *** 
 ### ***Future Updates***
@@ -53,6 +52,9 @@ The project itself was deployed and can be viewed [here](). TBD
 
 ***
 ## Credits
-Funny images: [link]()
-Markdown Guide: [link]()
-Markdown CheatSheet: [Github]()
+* Funny images: [link]()
+* Markdown Guide: [link]()
+* Markdown CheatSheet: [Github]()
+* Sneaker Images: [link](https://www.kicksonfire.com/)
+* Moment package [link](https://momentjs.com/)
+
