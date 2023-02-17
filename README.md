@@ -34,11 +34,17 @@ The project itself was deployed and can be viewed [here](). TBD
 
 
 ### ***Screenshots of Final Project***
-##### Image Header 1
-![Image](https://i.postimg.cc/bNFWxKV5/memoji-laptop.png)
 
-##### Image Header 2
+##### Home page
 ![Image](https://i.postimg.cc/gjVFXPgG/Screenshot-2023-02-17-at-12-05-00-PM.png)
+##### Products page
+![Image](https://i.postimg.cc/fLgVbp82/Screenshot-2023-02-17-at-12-17-01-PM.png)
+##### About page
+![Image](https://i.postimg.cc/4yg3LcxG/Screenshot-2023-02-17-at-12-17-10-PM.png)
+##### Add Listing Form
+![Image](https://i.postimg.cc/HsWYrdJ6/Screenshot-2023-02-17-at-12-17-22-PM.png)
+##### Product Details
+![Image](https://i.postimg.cc/QtsLvJ1f/Screenshot-2023-02-17-at-12-17-48-PM.png)
 
 *** 
 ### ***Future Updates***
