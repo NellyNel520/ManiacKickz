@@ -5,6 +5,7 @@ import axios from 'axios';
 import { BASE_URL } from '../global'
 import BrandCard from '../components/BrandCard';
 import logo from '../assets/logo.mp4'
+import '../styles/home-headline.css'
 
 
 const Home = () => {

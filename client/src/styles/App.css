@@ -21,6 +21,7 @@ nav{
   overflow: hidden;
   padding-left: 1rem;
   border-bottom: 2px solid rgba(233, 204, 44, 0.3);
+  height: 10rem;
 }
 nav a{
   float: right;
@@ -33,10 +34,10 @@ nav a{
 }
 nav img{
   float: left;
-  font-size: 1.5rem;
-  width: 10rem;
-  color: rgb(219, 152, 9);
-  margin: 1rem 2rem 0 0;
+  /* font-size: 1.5rem; */
+  width: 16%;
+  /* color: rgb(219, 152, 9); */
+  margin: 0 0 0 0;
 }
 h2{
   text-decoration: underline;
@@ -138,10 +139,29 @@ video{
   font-family: 'Gravitas One', cursive;
   font-size: 6rem;
   margin: 0 0 10rem 0;
+  
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 h1{
   font-family: 'Gravitas One', cursive;
   font-size: 3.5rem;
+  /* color: rgba(235, 166, 38, 0.9); */
 }
 .container-shopBrand{
   width: 80%;

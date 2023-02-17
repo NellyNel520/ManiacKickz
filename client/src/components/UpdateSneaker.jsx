@@ -106,7 +106,7 @@ const UpdateSneakerForm = (props) => {
 
 			
 		</form>
-		<button type="submit">Submit</button>
+		<button onClick={handleSubmit}>Submit</button>
 	</div>
 </div>
 	)

@@ -4,6 +4,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { BASE_URL } from '../global'
 import moment from 'moment'
+import '../styles/details.css'
 
 const SneakerDetails = (props) => {
 	const [sneaker, setSneaker] = useState('')
