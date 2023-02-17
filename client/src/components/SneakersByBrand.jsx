@@ -32,12 +32,16 @@ const SneakersByBrand = ({sneakers}) => {
 
   return (
     <div>
-      <h1>{brand}</h1>
+    <div>
+      {/* <h1>{brand}</h1> */}
+      <div className='wrapper'>
+      <div className='top'>{brand}</div>
+      <div className='bottom' aria-hidden="true"> {brand}</div>
+    </div>
       <div className='container-grid'>
       {brandSneakers.map((sneaker) => (
-          <Link to={`/sneakers/${sneaker._id}`} >
+          <Link to={`/sneakers/${sneaker._id}`} key={sneaker._id}>
             <SneakerCard
-              key={sneaker.id}
               {...sneaker}
               image={sneaker.image}
               name={sneaker.name}
@@ -46,6 +50,7 @@ const SneakersByBrand = ({sneakers}) => {
           </Link>
         ))}
         </div>
+    </div>
     </div>
   )
 }
