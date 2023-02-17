@@ -23,6 +23,7 @@ The site will include a landing/home page, product page, an add listing page whe
 * Mongo DB
 * Heroku
 * DrawIO [for Entity Relationship Diagram & Component Hierarchy Diagram]
+* Moment package [converts numerical date format to string form using the 3 character acronym/ shorthand for the month. New Format ex.) Feb 15, 2023 ]
 ***
 
 #### ***Additional Info***
