@@ -34,8 +34,10 @@ const SneakerDetails = (props) => {
 
 	return sneaker ? (
 		<div className="details">
-			<h1>{sneaker.name}</h1>
-			<h3>{releaseDate}</h3>
+		
+			<h2>{sneaker.name}</h2>
+			<h3 className="release">Released: {releaseDate}</h3>
+		
 			<div className="img-container">
 				<img src={sneaker.image} alt={sneaker.name} />
 			</div>
@@ -79,7 +81,7 @@ const SneakerDetails = (props) => {
 					</div>
 				</div>
 			</div>
-			<div>
+			<div className='buttons'>
 				<Link to={`/sneakers/update/${sneaker._id}`}>
 					<button>update</button>
 				</Link>

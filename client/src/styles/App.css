@@ -20,7 +20,7 @@ nav{
   background-color: black;
   overflow: hidden;
   padding-left: 1rem;
-  border-bottom: 2px solid rgba(233, 204, 44, 0.3);
+  /* border-bottom: 2px solid rgba(233, 204, 44, 0.3); */
   height: 10rem;
 }
 nav a{
@@ -37,9 +37,9 @@ nav a{
 nav img{
   float: left;
   /* font-size: 1.5rem; */
-  width: 16%;
+  width: 20%;
   /* color: rgb(219, 152, 9); */
-  margin: 0 0 0 0;
+  margin: -20 0 0 0;
 }
 h2{
   text-decoration: underline;
@@ -69,15 +69,18 @@ h1 span{
 /* Sneaker Details */
 .sneakerInfo-wrapper{
   border: 1px solid ;
+  border-radius: 10%;
   padding: 20px;
   width: 35rem;
   justify-content: center;
-  margin: 0 25rem 0 25rem;
+  margin: 0 10rem 2rem 25rem;
   color: #f2f2f2;
+  background-color: rgb(136, 131, 131);
 }
 .wrapper2{
   display: grid;
-  grid-template-columns: 10rem 25rem; 
+  grid-template-columns: 10rem 25rem;
+  
 }
 /* Sneaker Details */
 
@@ -93,6 +96,7 @@ h1 span{
   transition: all 0.2s;
   color: #f2f2f2;
   transition: all 0.2s ease-in-out;
+  text-align: center;
   /* text-decoration: none; */
 }
 
@@ -229,9 +233,7 @@ h1{
 /* Home Page */
 
 /* Footer */
-.box{
-  position: absolute;
-}
+
 footer{
   border-top:3px solid black;
   padding-top: 5px;    

@@ -23,8 +23,8 @@ const Products = () => {
   return (
     <div>
     <div className='wrapper'>
-      <div className='top'> kickz</div>
-      <div className='bottom' aria-hidden="true"> Kickz</div>
+      <div className='top'> kicks</div>
+      <div className='bottom' aria-hidden="true"> Kicks</div>
     </div>
       {/* <h1>Current Listings</h1> */}
       <section className='container-grid'>
