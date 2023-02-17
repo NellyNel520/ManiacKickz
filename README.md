@@ -63,4 +63,6 @@ The project itself was deployed and can be viewed [here](). TBD
 * Markdown CheatSheet: [Github]()
 * Sneaker Images: [link](https://www.kicksonfire.com/)
 * Moment package [link](https://momentjs.com/)
+* Sliced style effect [link]( https://freefrontend.com/css-text-effects/)
+* Shine effect  text [link](https://mdbootstrap.com/snippets/react/tomasz-makowski/4336373#css-tab-view)
 
