@@ -201,6 +201,7 @@ h1{
 .container-cont{
   width: 40%;
   height: auto;
+  padding-bottom: 40px;
   /* border: 3px solid; */
   box-shadow: 0 0 10px 8px var(--orange);
 }
@@ -293,7 +294,7 @@ footer{
   
 }
 .ft-links a{
-  color: rgb(167, 119, 48);
+  color: rgb(205, 100, 25);
 }
 
 

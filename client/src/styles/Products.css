@@ -3,7 +3,9 @@
   --text-color: hsl(0, 0%, 100%);
   --orange:  rgb(219, 152, 9)
 }
-
+h2{
+  color: white;
+}
 .wrapper {
   display: grid;
   place-content: center;

@@ -34,6 +34,7 @@ const Home = () => {
         </div>
         <div className='container-cont'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet tristique quam. Sed luctus faucibus efficitur. Cras a arcu id nunc facilisis tempus et vel ante. Praesent mauris lorem, tristique a posuere non, ullamcorper eu mi. Vivamus quis feugiat dolor. Curabitur placerat nunc vel massa ullamcorper, non rhoncus mi blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vel erat accumsan, pellentesque arcu sit amet, rutrum justo. Praesent at porta eros, in mollis massa.</p>
+          <button>see More</button>
         </div>
       </div>
 
